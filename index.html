@@ -9,8 +9,24 @@
 </head>
 
 <body>
-
-    <button id="draw-cards">Click me</button>
+    <div class="draw-deck__group">
+        <button id="draw-deck">Draw deck</button>
+        <span id="remainig-cards">Remaining cards: 52</span>
+    </div>
+    <div class="cards-container" id="cards-container">
+        <h2>War!</h2>
+        <div class="cards__group">
+            <div class="displayed-card" >
+                <div class="img-outline" id="card1"></div>
+                <h3>Computer: 0</h3>
+            </div>
+            <div class="displayed-card">
+                <div class="img-outline" id="card2"></div>
+                <h3>Me: 0</h3>
+            </div>
+        </div>
+    </div>
+    <button id="draw-cards">Draw cards</button>
     <script src="main.js"></script>
 </body>
 
