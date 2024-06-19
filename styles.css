@@ -54,6 +54,7 @@ img {
 }
 
 h2 {
+  text-align: center;
   padding: 0;
   margin: 15px;
 }
@@ -72,8 +73,8 @@ button {
   padding: 8px 20px;
   text-align: center;
   font-size: 16px;
-  cursor: pointer;
   font-weight: bold;
+  cursor: pointer;
 }
 
 @media (min-width: 600px) {
@@ -84,4 +85,10 @@ button {
     /* align-items: center; */
     justify-content: space-around;
   }
+}
+
+.disabled {
+  cursor: no-drop;
+  background-color: rgba(128, 128, 128, 0.753);
+  color: rgba(255, 255, 255, 0.604);
 }
